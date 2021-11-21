@@ -28,9 +28,6 @@ def compute_acc(labels, x_labels, nb_batch):
     return accuracy_score(real_labels, pre_labels)
 
 
-int a = 10
-
-
 def AVPSLoss(av_simm, soft_label):
     """audio-visual pair similarity loss for fully supervised setting,
     please refer to Eq.(8, 9) in our paper.
